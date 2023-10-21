@@ -1,0 +1,156 @@
+body{
+    margin:0px;
+    background-color: rgba(18, 35, 96, 0.911);
+    -webkit-text-fill-color: aliceblue;
+}
+h1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 26, 97);
+    font: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: 2%;
+}
+
+
+#progress{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    font-size: 35px;
+}
+
+#imagen{
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: rgba(45, 68, 149, 0.866);
+    width: 500px;
+}
+
+.margen-foto{
+    margin-left: 2%;
+}
+
+.texto-progress{
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.episodes{
+        -webkit-text-fill-color: rgb(50, 163, 250);
+}
+
+#social{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5%;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.activity{
+    font-size: 35px;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+}
+
+.status{
+    background-color: rgba(45, 68, 149, 0.866);
+}
+
+.write-status {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 10px;
+    line-height: 1.5;
+    min-height: 40px;
+    cursor: text;
+    caret-color: white;
+}
+
+
+/*#forum{
+    margin-left: 5%;
+    font-size: 35px;
+
+}*/
+#gente{
+    margin-left: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display: flex;
+    font-size: 30px;
+    margin-right: 5%;
+}
+
+.visto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.esteban{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1025px; /*El ancho total del html es 1500*/
+}
+
+#gente2{
+    margin-left: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display: flex;
+    font-size: 30px;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+
+#abajo{
+    background-color: rgb(7, 20, 69);
+    padding-top: 0.5%;
+    margin-top: 2%;
+}
+
+.theme{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 5%;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.fotos-theme{
+    margin-left: 5%;
+
+}
+
+.logout{
+    margin-left: 5%;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+.ultimo{
+    padding-bottom: 5%;
+}

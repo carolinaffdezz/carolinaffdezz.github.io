@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link  rel="stylesheet" href="form.css">
+        <meta name="viewport" content="width-device-width, initial-scale="1" />
+    </head>
+    
+    <body>
+        <h1>
+            Anilist
+        </h1>
+
+        <div id="links">
+            <div>
+                <a href="/project1/index.html"> <img height=50px src="https://static.vecteezy.com/system/resources/previews/013/743/156/non_2x/white-house-icon-png.png" alt="home"> </a>
+            </div>
+            <div class="anime">
+                Anime
+            </div>
+            <div>
+                Manga
+            </div>
+            <div>
+                <img height=70px src="https://static.vecteezy.com/system/resources/previews/014/396/452/non_2x/comic-style-user-icon-with-transparent-background-file-png.png" alt="home">
+            </div>
+        </div>
+        <p>
+        </p>
+
+        <div id="Title">
+            <strong>Satisfaction form</strong>
+        </div>
+        <div id="texto1">
+            Welcome to the satisfaction form! Thanks for your time to answer this questions in order to improve this website.
+        </div>
+            <form action="submit.html" method="post">
+                <!-- Pregunta 1 -->
+                <div>
+                    <label for="experience">How would you rate your overall experience with AniList?</label>
+                    <select name="experience" id="experience">
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="average">Average</option>
+                        <option value="poor">Poor</option>
+                    </select>
+                </div>
+        
+                <!-- Pregunta 2 -->
+                <div>
+                    <label for="progress">How many anime or manga series have you marked as "Watching" or "Reading" on AniList?</label>
+                    <input type="number" id="progress" name="progress" min="0">
+                </div>
+        
+                <!-- Pregunta 3 -->
+                <div>
+                    <label for="recommend">Would you recommend AniList to a friend interested in anime and manga?</label>
+                    <input type="radio" id="yes" name="recommend" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="recommend" value="no">
+                    <label for="no">No</label>
+                </div>
+        
+                <!-- Pregunta 4 -->
+                <div>
+                    <label for="comments">Share your comments and suggestions about AniList:</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </div>
+        
+                <!-- Pregunta 5 -->
+                <div>
+                    <label for="interact">Do you actively interact with other users on AniList, such as discussing series or recommendations?</label>
+                    <input type="radio" id="yes-interact" name="interact" value="yes">
+                    <label for="yes-interact">Yes</label>
+                    <input type="radio" id="no-interact" name="interact" value="no">
+                    <label for="no-interact">No</label>
+                </div>
+        
+                <!-- Pregunta 6 -->
+                <div>
+                    <label for="suggestions">What features or improvements would you like to see on AniList in the future?</label>
+                    <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
+                </div>
+        
+                <div class="margen">
+
+                        <input type="submit" value="Submit">
+
+                </div>
+            </form>
+
+
+
+
+<div id="abajo">
+    <h2 class="theme">
+        Site Theme
+    </h2>
+    <div class="fotos-theme">
+        <div>
+            <img height="50px" src="https://cdn3.iconfinder.com/data/icons/photography/512/Icon_20-512.png" alt="theme">
+        </div>
+    </div>
+    <div class="logout">
+        Logout
+    </div>
+    <div class="logout ultimo">
+        <p>We like to improve!</p>
+        <a href="/project1/form/form.html">Satisfaction form</a>
+    </div>
+
+
+
+</div>
+        
+
+
+
+    </body>
+
+</html>

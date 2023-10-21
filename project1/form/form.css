@@ -1,0 +1,114 @@
+/*body{
+    margin:0px;
+    background-color: rgba(18, 35, 96, 0.911);
+    -webkit-text-fill-color: aliceblue;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 26, 97);
+    font: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+    font-size: 49px;
+    margin-left: 5%;
+}
+
+#texto1 {
+    margin: 3% 5% 5% 5%;
+    font-size: 23px; 
+}
+
+#texto {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+}
+
+
+label {
+
+    margin-left: 5%;
+    display: inline-block; 
+    padding: 3px;
+}
+*/
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(18, 35, 96, 0.911);
+    -webkit-text-fill-color: aliceblue;
+    font-size: 29px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 26, 97);
+    font: white;
+    font-size: 41px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 35px;
+    margin: 2%;
+}
+
+.anime{
+    -webkit-text-fill-color: grey;
+}
+
+#Title {
+    margin-bottom: 2%;
+    font-size: 37px; 
+}
+
+#texto1 {
+    font-size: 30px; 
+    margin-bottom: 35px;
+}
+
+
+label {
+    margin-top: 2px;
+    display: inline-block;
+    padding: 3px;
+    font-size: 28px;
+}
+
+.margen{
+    margin-top: 2%;
+}
+
+input[type="text"], input[type="number"], textarea {
+    -webkit-text-fill-color: black;
+    font-size: 20px;
+}
+
+

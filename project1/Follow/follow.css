@@ -1,0 +1,194 @@
+body{
+    margin:0px;
+    background-color: rgba(18, 35, 96, 0.911);
+    -webkit-text-fill-color: aliceblue;
+}
+
+h1{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 26, 97);
+    font: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+
+.imagen-superpuesta {
+position: absolute;
+bottom: 0px;
+left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+width: 400px;
+}
+
+.texto-inferior {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff; /* Color de texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Espaciado interno para el texto */
+    right:90px;
+    font-size: 50px;
+}
+
+#links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: 2%;
+}
+
+#numeros{
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 32px;
+    -webkit-text-fill-color: rgb(50, 163, 250);
+}
+
+#numeros2{
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+#numeros3{
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 32px;
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-top: 2.5%;
+}
+
+
+#social{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5%;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.activity{
+    font-size: 35px;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+}
+
+.status{
+    background-color: rgba(45, 68, 149, 0.866);
+}
+
+.write-status {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 10px;
+    line-height: 1.5;
+    min-height: 40px;
+    cursor: text;
+    caret-color: white;
+}
+
+#gente{
+    margin-left: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display: flex;
+    font-size: 30px;
+    margin-right: 5%;
+    position:relative;
+}
+
+.visto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.naruto{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 10px;
+}
+
+.time{
+    position:absolute;
+    top:15;
+    right:30px;
+    display: flex;
+    justify-content: flex-end;
+    text-align:right;
+    align-self: flex-end;
+    width: 1025px; /*El ancho total del html es 1500*/
+
+}
+
+.margen{
+    left:50px;
+    font-size: 35px;
+}
+
+#gente2{
+    margin-left: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    display: flex;
+    font-size: 30px;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+
+#abajo{
+    background-color: rgb(7, 20, 69);
+    padding-top: 0.5%;
+    margin-top: 2%;
+}
+
+.theme{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.fotos-theme{
+    margin-left: 5%;
+
+}
+
+.logout{
+    margin-left: 5%;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+.ultimo{
+    padding-bottom: 5%;
+}

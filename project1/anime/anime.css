@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+    background-color: rgba(18, 35, 96, 0.911);
+    -webkit-text-fill-color: aliceblue;
+}
+
+.contenedor {
+        position: relative;
+        width: 100%;
+        max-height: 600px;
+        overflow: hidden;
+}
+
+
+.imagen-superpuesta {
+    position: absolute;
+    bottom: 0px;
+    left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: 1; /* Controla el orden de apilamiento, un valor mayor coloca la imagen encima */
+    width: 400px;
+}
+
+.texto-inferior {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff; /* Color de texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Espaciado interno para el texto */
+    right:90px;
+    font-size: 50px;
+}
+
+#links{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 35px;
+    margin: 2%;
+}
+
+.anime{
+    -webkit-text-fill-color: grey;
+}
+
+#filter{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgba(45, 68, 149, 0.866);
+}
+
+.filter-texto{
+    margin-left: 2%;
+    font-size: 35px;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+#encabezado{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(45, 68, 149, 0.866);
+    font-size: 30px;
+}
+
+#todos{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(45, 68, 149, 0.866);
+    font-size: 33px;
+}
+
+.serie{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2%;
+    padding-bottom:1%;
+}
+
+.texto{
+    margin-left: 1%;
+}
+
+#abajo{
+    background-color: rgb(7, 20, 69);
+    padding-top: 0.5%;
+    margin-top: 2%;
+}
+
+.theme{
+    -webkit-text-fill-color: rgb(50, 163, 250);
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.fotos-theme{
+    margin-left: 5%;
+
+}
+
+.logout{
+    margin-left: 5%;
+    -webkit-text-fill-color:rgb(153, 168, 183);
+    font-size: 30px;
+    padding-top: 2%;
+}
+
+.ultimo{
+    padding-bottom: 5%;
+}
+
